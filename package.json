@@ -1,0 +1,34 @@
+{
+    "name": "cli-file-generator",
+    "version": "0.0.1",
+    "description": "Proyecto cli para generación de ficheros",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm run index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mvissio/cli-generator.git"
+    },
+    "keywords": [
+        "cli",
+        "rb",
+        "js",
+        "ts",
+        "kt",
+        "java"
+    ],
+    "author": "Marcos Vissio <marcos.vissio@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mvissio/cli-generator/issues"
+    },
+    "homepage": "https://github.com/mvissio/cli-generator#readme",
+    "dependencies": {
+        "chalk": "^3.0.0",
+        "figlet": "^1.2.4",
+        "inquirer": "^7.0.1",
+        "shelljs": "^0.8.3"
+    },
+    "bin": "./index.js"
+}
